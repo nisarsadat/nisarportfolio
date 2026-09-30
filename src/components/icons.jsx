@@ -136,6 +136,15 @@ export const WrenchIcon = (p) => (
   </Icon>
 )
 
+export const ChartIcon = (p) => (
+  <Icon {...p}>
+    <path d="M3 3v16a2 2 0 0 0 2 2h16" />
+    <path d="M8 17v-6" />
+    <path d="M13 17V7" />
+    <path d="M18 17v-9" />
+  </Icon>
+)
+
 export const PaletteIcon = (p) => (
   <Icon {...p}>
     <circle cx="13.5" cy="6.5" r=".5" />

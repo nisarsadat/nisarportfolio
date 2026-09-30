@@ -1,5 +1,6 @@
 import Section from './Section.jsx'
 import Reveal from './Reveal.jsx'
+import Devices from './Devices.jsx'
 import { about, stats, profile } from '../data/content.js'
 import { MapPinIcon, MailIcon, PhoneIcon, GlobeIcon } from './icons.jsx'
 
@@ -37,6 +38,10 @@ export default function About() {
           ))}
         </div>
       </div>
+
+      <Reveal>
+        <Devices />
+      </Reveal>
     </Section>
   )
 }

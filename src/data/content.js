@@ -15,10 +15,10 @@ export const profile = {
   // Your phone numbers (first one is treated as primary)
   phones: ['0782606740', '+93 729 288 173', '+93 744 845 257'],
 
-  languages: 'Dari (Native), Pashto (Fluent), English, Urdu',
+  languages: 'Dari (Native), Pashto (Fluent), English (Good working proficiency), Urdu (Intermediate)',
 
   tagline:
-    'Full Stack Software Engineer building responsive web applications with Vue.js, Laravel and MySQL — from database design to Ubuntu server deployment.',
+    'Full Stack Software Engineer building responsive web applications with Vue.js, React, Laravel, MySQL, PostgreSQL and more — from database design to Ubuntu server deployment.',
 
   // Rotating roles under your name in the hero
   roles: ['Full Stack Web Applications', 'Vue.js & Laravel Systems', 'Database Design', 'Server Deployment'],
@@ -64,13 +64,19 @@ export const skills = [
     icon: 'server',
     name: 'Backend',
     blurb: 'Designing solid APIs, authentication and backend logic.',
-    items: ['Laravel', 'PHP', 'REST APIs', 'Laravel Sanctum', 'Authentication', 'CRUD Systems'],
+    items: ['Laravel', 'PHP', 'REST APIs', 'Laravel Sanctum', 'Authentication', 'CRUD Systems', 'System Design'],
   },
   {
     icon: 'database',
     name: 'Databases',
     blurb: 'Modeling, maintaining and protecting data.',
     items: ['MySQL', 'PostgreSQL', 'Database Design', 'Backup & Recovery', 'Query Optimization', 'Data Management'],
+  },
+  {
+    icon: 'chart',
+    name: 'Data Science',
+    blurb: 'Turning raw data into predictions and clear, stakeholder-ready insight.',
+    items: ['Data Pipelines', 'ML Models', 'Predictive Analytics', 'Data Visualization'],
   },
   {
     icon: 'cloud',
@@ -175,11 +181,25 @@ export const experience = [
       'Teaching English language and practical computer skills to academy students — helping them build strong foundations in both.',
   },
   {
+    period: '2025',
+    role: 'Instructor',
+    company: 'Afghanistan Open University · Online',
+    summary:
+      'Teaching software development, programming, and system design — with labs, projects, and assessments that emphasize real-world delivery and best practices.',
+  },
+  {
     period: '2025 — Present',
     role: 'Full Stack Developer',
     company: 'Ronika Brand, Kabul (Remote)',
     summary:
       'Developing and maintaining full-stack web applications with a Vue.js frontend and Laravel backend, collaborating with a remote team on real-world tasks and improving system performance and user experience.',
+  },
+  {
+    period: '2025',
+    role: 'Data Science Engineer',
+    company: 'Beyond Data.in · India (Remote)',
+    summary:
+      'Building data pipelines and ML models, delivering predictive analytics and stakeholder-ready visualizations — integrating data science into production with a focus on quality and scale.',
   },
   {
     period: '2023 — 2025',
@@ -201,6 +221,13 @@ export const experience = [
     company: 'Kabul University',
     summary:
       'Taught Microsoft Office (Word, Excel, PowerPoint) and practical computer use to students from non-technical departments.',
+  },
+  {
+    period: 'Related experience',
+    role: 'Data Management & Internal System Support',
+    company: 'Government environment',
+    summary:
+      'Contributed to data management and internal system development; supported daily digital workflows and office system improvements; worked carefully with records, system updates and practical user support.',
   },
 ]
 

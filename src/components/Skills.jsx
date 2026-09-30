@@ -8,6 +8,7 @@ import {
   WrenchIcon,
   PaletteIcon,
   CloudIcon,
+  ChartIcon,
 } from './icons.jsx'
 
 const ICONS = {
@@ -17,6 +18,7 @@ const ICONS = {
   tools: WrenchIcon,
   design: PaletteIcon,
   cloud: CloudIcon,
+  chart: ChartIcon,
 }
 
 export default function Skills() {
